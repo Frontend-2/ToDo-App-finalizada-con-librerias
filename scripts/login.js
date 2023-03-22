@@ -3,7 +3,7 @@ window.addEventListener('load', function () {
     const form = document.forms[0];
     const email = document.querySelector('#inputEmail')
     const password = document.querySelector('#inputPassword')
-    const url = 'https://ctd-fe2-todo-v2.herokuapp.com/v1';
+    const url = 'https://todo-api.ctd.academy';
 
 
     /* -------------------------------------------------------------------------- */
