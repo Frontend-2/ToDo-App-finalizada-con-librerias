@@ -10,8 +10,8 @@ window.addEventListener('load', function () {
   /* ------------------------- iniciamos libreria AOS ------------------------- */
   AOS.init();
 
-  const urlTareas = 'https://todo-api.ctd.academy/tasks';
-  const urlUsuario = 'https://todo-api.ctd.academy/users/getMe';
+  const urlTareas = 'https://todo-api.ctd.academy/v1/tasks';
+  const urlUsuario = 'https://todo-api.ctd.academy/v1/users/getMe';
   const token = JSON.parse(localStorage.jwt);
 
   const formCrearTarea = document.querySelector('.nueva-tarea');
