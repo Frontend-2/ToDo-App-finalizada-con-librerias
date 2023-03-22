@@ -3,7 +3,7 @@ window.addEventListener('load', function () {
     const form = document.forms[0];
     const email = document.querySelector('#inputEmail')
     const password = document.querySelector('#inputPassword')
-    const url = 'https://todo-api.ctd.academy';
+    const url = 'https://todo-api.ctd.academy/v1';
 
 
     /* -------------------------------------------------------------------------- */
